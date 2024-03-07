@@ -48,3 +48,18 @@ void bubbleSortArray() {
 
 	} while (pass <= n - 1); //looping jika pass kurang dari sama dengan n-1
 }
+
+void display() {
+	cout << endl; //output ke layar
+	cout << "=============================" << endl; //output ke layar
+	cout << "Data setelah diurutkan: " << endl; //output ke layar
+	cout << "=============================" << endl; //output ke layar
+	cout << endl; //output ke layar
+	for (int j = 0; j < n; j++) { //looping dengan j dimulai dari 0 hingga n-1
+		cout << a[j] << " "; //output ke layar
+	}
+
+	cout << endl; //output ke layar
+	cout << "=============================" << endl; //output ke layar
+	cout << "Jumlah pass: " << n - 1 << endl; //output ke layar
+}
